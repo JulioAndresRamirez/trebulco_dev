@@ -9870,7 +9870,29 @@ section .intro_section .slide_description_wrapper {
 */
 .intro_section {
   position: relative;
+  min-height: 600px;
+  overflow: hidden;
   clear: both;
+}
+
+.intro_section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/slide_college.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.7);
+}
+
+@media (max-width: 425px) {
+  .intro_section {
+    min-height: 500px;
+  }
 }
 
 .intro_section > img {
@@ -9916,6 +9938,10 @@ section .intro_section .slide_description_wrapper {
   opacity: 0.2;
 }
 
+.intro_section.blog_slider .slide_description_wrapper {
+  left: 200px
+}
+
 .intro_section.blog_slider .slide_description_wrapper .slide_description {
   max-width: none;
 }
@@ -9941,7 +9967,7 @@ section .intro_section .slide_description_wrapper {
   top: 0;
   bottom: 0;
   right: 0;
-  left: 0;
+  left: 150px;
   height: 100%;
   font-size: 0;
   z-index: 5;

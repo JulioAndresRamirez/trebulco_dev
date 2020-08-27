@@ -4,6 +4,16 @@
 <head>
 	<title>Trebulco School</title>
 	<meta charset="utf-8">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
 	<!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,21 +31,9 @@
 		<div class="preloader_image"></div>
 	</div>
 	<!--[if lt IE 9]> <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div><![endif]-->
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<div class="widget widget_search">
-			<form role="search" method="get" class="searchform form-inline" action="/">
-				<div class="form-group"><input type="text" value="" name="search" class="form-control"
-						placeholder="Search keyword" id="modal-search-input"></div><button type="submit"
-					class="theme_button">Search</button>
-			</form>
-		</div>
-	</div><!-- wrappers for visual page editor and boxed version of template -->
+
 	<div id="canvas">
 		<div id="box_wrapper" class="">
-
-
-
 			<section
 				class="ls ms  section_padding_top_0 section_padding_bottom_0  table_section       page_topline   table_section_md"
 				id="header_top">
@@ -67,8 +65,12 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12 display_table">
-							<div class="header_left_logo display_table_cell"><a href="./" class="logo top_logo"
-									data-mce-href="./"><img src="images/logo.png" alt="" data-mce-src="images/logo.png"></a></div>
+							<div class="header_left_logo display_table_cell">
+								<a href="./" class="logo top_logo" data-mce-href="./">
+									<img src="images/trebulco/Logo_Trebulco.png" width="150" alt="Logo_Trebulco"
+										data-mce-src="images/trebulco/Logo_Trebulco.png">
+								</a>
+							</div>
 							<div class="header_mainmenu display_table_cell text-right">
 								<!-- main nav start -->
 								<nav class="mainmenu_wrapper">
@@ -173,21 +175,23 @@
 
 
 
-			<section class="intro_section ds"><img src="images/slide01.jpg" alt="">
+			<section class="intro_section ds" style="">
+				<!-- <img src="images/slide_college.jpg" alt=""> -->
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="slide_description_wrapper">
 								<div class="slide_description">
 									<div class="intro-layer" data-animation="fadeInUp">
-										<h2><span class="highlight2"><strong><em>Semper Superne <br>Nitens</em></strong></span></h2>
+										<h2><span class="highlight1"><strong><em>Semper Superne <br>Nitens</em></strong></span></h2>
 									</div>
 									<div class="intro-layer" data-animation="fadeInUp">
 										<p><span>Trebulco is a constantly evolving school, reacting to <br>the advances and changes in
 												education and where students<br> learn with growing independence.</span></p>
 									</div>
-									<div class="intro-layer" data-animation="fadeInUp"><a href="courses.html"
-											class="theme_button color2 two_lines_button" data-mce-href="courses.html">Proceso de Admision</a>
+									<div class="intro-layer" data-animation="fadeInUp"><a href="admision2020.html"
+											class="theme_button color2 two_lines_button" data-mce-href="admision2020.html">Proceso de
+											Admisión</a>
 									</div>
 								</div><!-- eof .slide_description -->
 							</div><!-- eof .slide_description_wrapper -->
@@ -195,17 +199,21 @@
 					</div><!-- eof .row -->
 				</div><!-- eof .container -->
 			</section>
-			<section class="ls ms  section_padding_top_25 section_padding_bottom_25  table_section    table_section_sm">
+
+
+			<section class="ls ms section_padding_top_25 section_padding_bottom_25  table_section  table_section_sm">
 				<div class="container">
 					<div class="row text-xs-center">
 						<div class="col-sm-9 to_animate animated pullDown" data-animation="pullDown">
 							<h4 class="margin_0"><span class="highlight2">Proceso de Admisión</span>&nbsp;Postulación año 2020</h4>
 						</div>
 						<div class="col-sm-3 to_animate text-right text-xs-center" data-animation="pullDown"><a href="admision.html"
-								class="theme_button color2" data-mce-href="admision.html" title="admision">ADMISION</a></div>
+								class="theme_button color2" data-mce-href="admision.html" title="admision">ADMISIÓN</a></div>
 					</div>
 				</div>
 			</section>
+
+
 			<section class="ls  section_padding_top_50 section_padding_bottom_50">
 				<div class="container">
 					<div class="row">
@@ -215,7 +223,8 @@
 								<img src="images/quote_bg.jpg" alt="" data-mce-src="images/quote_bg.jpg">
 								<div class="item-content entry-content text-center">
 									<div class="entry-content">
-										<blockquote>I would like to welcome you to our school' website. Trebulco is a constantly evolving
+										<img alt="" src="images/trebulco/home/anne.jpg" class="avatar avatar-96 photo avatar-default round">
+										<blockquote>I would like to welcome you to our school's website. Trebulco is a constantly evolving
 											school, reacting to the advances and changes in education and where students learn with growing
 											independence. Our stimulating environment combined with a challenging curriculum is distinctive in
 											Talagante, 35 minutes from Santiago. We hope that our pages can give you a glimpse of our schools
@@ -241,7 +250,8 @@
 							<h2 class=""><span class="highlight2">PROYECTO EDUCATIVO</span></h2>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row " style="margin-bottom: 40px;">
+
 						<div class="col-sm-7">
 							<h3 class="">Misión</h3>
 							<p class=""><span>La Misión de Trebulco School es proporcionar a sus alumnos las herramientas necesarias
@@ -258,13 +268,11 @@
 							<p class=""><span></span></p>
 						</div>
 						<div class="col-sm-5">
-							<p class=""><img src="images/gallery/17.jpg" alt="images/gallery/17.jpg" width="1170" height="780"></p>
+							<img src="images/students_example.jpg" width="1170" height="780">
 						</div>
+
 					</div>
-					<div class="row">
-						<div class="col-sm-5">
-							<p class=""><img src="images/gallery/17.jpg" alt="images/gallery/17.jpg" width="1170" height="780"></p>
-						</div>
+					<div class="row" style="margin-bottom: 40px;">
 						<div class="col-sm-7">
 							<h3 class="">Visión</h3>
 							<p class="">Trebulco School, centrado en la persona, con un enfoque humanista, pretende contribuir, a
@@ -274,8 +282,12 @@
 							<p class="">Aspiramos a desarrollar en nuestros alumnos, un espíritu crítico que les permita ponderar con
 								justicia y lucidez los acontecimientos del diario vivir.</p>
 						</div>
+						<div class="col-sm-5">
+							<img src="images/students_example.jpg" alt="images/students_example.jpg" width="1170" height="780">
+						</div>
 					</div>
-					<div class="row">
+
+					<div class="row" style="margin-bottom: 40px;">
 						<div class="col-sm-7">
 							<h3 class="">Bilingüismo</h3>
 							<p class=""><span>El conocimiento y uso del idioma inglés en nuestro país y en todas partes del mundo de
@@ -290,19 +302,18 @@
 							<p class=""><span></span></p>
 						</div>
 						<div class="col-sm-5">
-							<p class=""><img src="images/gallery/17.jpg" alt="images/gallery/17.jpg" width="1170" height="780"></p>
+							<img src="images/students_example.jpg" alt="images/students_example.jpg" width="1170" height="780">
 						</div>
 					</div>
 				</div>
 			</section>
-			<section
-				class="ls columns_padding_0 section_padding_top_0 section_padding_bottom_30                             saving">
+			<section class="ls columns_padding_0 section_padding_top_0 section_padding_bottom_30 saving">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12  to_animate text-center selected" data-animation="fadeInDown">
-							<h2 class="section_header"><br></h2>
-							<div class=""><a href="blog-right.html" class="theme_button color2" data-mce-href="blog-right.html">Saber
-									más</a></div>
+
+							<div class=""><a href="/Documents/proyecto.pdf" download class="theme_button color2">Descargar proyecto
+									educativo</a></div>
 						</div>
 					</div>
 				</div>
@@ -360,6 +371,95 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- 			Contact Form-->
+
+			<section class="ls columns_padding_25 section_padding_top_100 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="module-header">Formulario de Contacto</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 to_animate" data-animation="scaleAppear">
+							<form class="contact-form columns_padding_5" method="post" action="./">
+								<div class="col-sm-6">
+									<div class="form-group"><label for="name">Nombre Completo <span class="required">*</span></label><i
+											class="fa fa-user highlight2" aria-hidden="true"></i><input type="text" aria-required="true"
+											size="30" value="" name="name" id="name" class="form-control" placeholder="Nombre Completo"></div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group"><label for="phone">Número de Telefono<span class="required">*</span></label><i
+											class="fa fa-phone highlight2" aria-hidden="true"></i><input type="text" aria-required="true"
+											size="30" value="" name="phone" id="phone" class="form-control" placeholder="Número de Telefono">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group"><label for="email">Correo<span class="required">*</span></label><i
+											class="fa fa-envelope highlight2" aria-hidden="true"></i><input type="email" aria-required="true"
+											size="30" value="" name="email" id="email" class="form-control" placeholder="Correo"></div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group"><label for="subject">Asunto<span class="required">*</span></label><i
+											class="fa fa-flag highlight2" aria-hidden="true"></i><input type="text" aria-required="true"
+											size="30" value="" name="subject" id="subject" class="form-control" placeholder="Asunto"></div>
+								</div>
+								<div class="col-sm-12">
+									<div class="contact-form-message form-group"><label for="message">Mensaje</label><i
+											class="fa fa-comment highlight2" aria-hidden="true"></i><textarea aria-required="true" rows="3"
+											cols="45" name="message" id="message" class="form-control" placeholder="Mensaje"></textarea></div>
+								</div>
+								<div class="col-sm-12 bottommargin_0">
+									<div class="contact-form-submit topmargin_10"><button type="submit" id="contact_form_submit"
+											name="contact_submit" class="theme_button color2 wide_button margin_0">Enviar</button></div>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-4 to_animate" data-animation="scaleAppear">
+							<ul class="list1 no-bullets no-top-border no-bottom-border">
+								<li>
+									<div class="media">
+										<div class="media-left"><i class="fa fa-map-marker highlight2 fontsize_18"></i></div>
+										<div class="media-body">
+											<h5 class="media-heading grey">Dirección:</h5>Calle Camino Carampangue, 550, Talagante,
+											Región Metropolitana
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="media">
+										<div class="media-left"><i class="fa fa-phone highlight2 fontsize_18"></i></div>
+										<div class="media-body">
+											<h5 class="media-heading grey">Telefono:</h5>(56 9) 5334 7691
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="media">
+										<div class="media-left"><i class="fa fa-envelope highlight2 fontsize_18"></i></div>
+										<div class="media-body greylinks">
+											<h5 class="media-heading grey">Correos:</h5>
+											<p style="font-weight: bold;">Secretaría:</p>
+											<a href="mailto:secretary.trebulco@gmail.com">secretary.trebulco@gmail.com</a>
+											<a href="mailto:henriquez@trebulco.cl">henriquez@trebulco.cl</a>
+											<br>
+											<hr>
+											<p style="font-weight: bold;">Admisión:</p>
+											<a href="mailto:admission@trebulco.cl">admission@trebulco.cl</a>
+											<a href="mailto:marcela.montalva@trebulco.cl">marcela.montalva@trebulco.cl</a>
+
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
 			<footer class="page_footer ds ms section_padding_50" id="index_footer">
 				<div class="container">
 					<div class="row">
@@ -391,7 +491,8 @@
 								<p><span>Calle Camino Carampangue, 550, Talagante, Región Metropolitana</span></p>
 								<ul class="list1 no-bullets">
 									<li><i class="fa fa-phone highlight2"></i> +12 345 678 9123</li>
-									<li><i class="fa fa-globe highlight2"></i> <a href="./" data-mce-href="./"> www.company.com</a></li>
+									<li><i class="fa fa-globe highlight2"></i> <a href="./" data-mce-href="./"> www.trebulcoschool.cl</a>
+									</li>
 									<li><i class="fa fa-envelope highlight2"></i> <a href="mailto:info@company.com"
 											data-mce-href="mailto:info@company.com"> info@company.com</a></li>
 								</ul>
