@@ -13030,6 +13030,10 @@ widget_pages
   background-color: rgba(8, 39, 93, 0.8);
 }
 
+.color_bg_Green:after {
+  background-color: rgba(8, 39, 93, 0.8);
+}
+
 .color_bg_2:after {
   background-color: rgba(209, 171, 106, 0.8);
 }
