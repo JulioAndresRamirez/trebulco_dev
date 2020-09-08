@@ -3795,7 +3795,7 @@ div.ppt {
 
 #toTop:after {
   color: #ffffff;
-  content: '\f106';
+  content: '\f062';
   font-size: 16px;
   line-height: 50px;
   font-family: FontAwesome;
@@ -9939,7 +9939,7 @@ section .intro_section .slide_description_wrapper {
 }
 
 .intro_section.blog_slider .slide_description_wrapper {
-  left: 200px
+  left: 200px;
 }
 
 .intro_section.blog_slider .slide_description_wrapper .slide_description {
