@@ -126,7 +126,23 @@ Background color for elements in dark section (.with_background): rgba(255, 255,
 Color section (.cs) colors: 
 Border colors for elements in color section: rgba(255, 255, 255, 0.2)
 
+/*
+Changes Trebulco
 */
+
+.logo_trebulco {
+  width: 150px;
+}
+
+@media (max-width: 640px) {
+  .logo_trebulco {
+    width: 100px;
+  }
+}
+
+
+
+
 /*
 ** Bootstrap Overrides
 */
