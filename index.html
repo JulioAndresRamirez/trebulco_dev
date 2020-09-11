@@ -387,32 +387,39 @@
 					</div>
 					<div class="row">
 						<div class="col-md-8 to_animate" data-animation="scaleAppear">
-							<form class="contact-form columns_padding_5" method="POST" data-netlify="true" name="Contacto">
+							<form class="contact-form columns_padding_5" action="/index.html" method="POST" data-netlify="true"
+								name="contact">
 								<div class="col-sm-6">
-									<div class="form-group"><label for="name">Nombre Completo <span class="required">*</span></label><i
-											class="fas fa-user highlight2" aria-hidden="true"></i><input type="text" aria-required="true"
-											size="30" value="" name="name" id="name" class="form-control" placeholder="Nombre Completo"></div>
+									<div class="form-group">
+										<label for="name">Nombre Completo <span class="required">*</span></label><i
+											class="fas fa-user highlight2" aria-hidden="true"></i>
+										<input type="text" aria-required="true" required size="30" value="" name="name" id="name"
+											class="form-control" placeholder="Nombre Completo"></div>
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group"><label for="phone">Número de Telefono<span class="required">*</span></label><i
 											class="fas fa-phone highlight2" aria-hidden="true"></i><input type="text" aria-required="true"
-											size="30" value="" name="phone" id="phone" class="form-control" placeholder="Número de Telefono">
+											size="30" value="" name="phone" id="phone" class="form-control" placeholder="Número de Telefono"
+											required>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group"><label for="email">Correo<span class="required">*</span></label><i
 											class="fas fa-envelope highlight2" aria-hidden="true"></i><input type="email" aria-required="true"
-											size="30" value="" name="email" id="email" class="form-control" placeholder="Correo"></div>
+											size="30" value="" name="email" id="email" class="form-control" placeholder="Correo" required>
+									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="form-group"><label for="subject">Asunto<span class="required">*</span></label><i
 											class="fas fa-flag highlight2" aria-hidden="true"></i><input type="text" aria-required="true"
-											size="30" value="" name="subject" id="subject" class="form-control" placeholder="Asunto"></div>
+											size="30" value="" name="subject" id="subject" class="form-control" placeholder="Asunto" required>
+									</div>
 								</div>
 								<div class="col-sm-12">
 									<div class="contact-form-message form-group"><label for="message">Mensaje</label><i
 											class="fas fa-comment highlight2" aria-hidden="true"></i><textarea aria-required="true" rows="3"
-											cols="45" name="message" id="message" class="form-control" placeholder="Mensaje"></textarea></div>
+											cols="45" name="message" id="message" class="form-control" placeholder="Mensaje"
+											required></textarea></div>
 								</div>
 								<div class="col-sm-12 bottommargin_0">
 									<div class="contact-form-submit topmargin_10">
@@ -444,6 +451,8 @@
 									<button type="submit">Send</button>
 								</p>
 							</form>
+
+
 						</div>
 						<div class="col-md-4 to_animate" data-animation="scaleAppear">
 							<ul class="list1 no-bullets no-top-border no-bottom-border">

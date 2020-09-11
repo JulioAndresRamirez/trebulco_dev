@@ -468,6 +468,7 @@ function windowLoadInit() {
 					});
 			}
 		});
+
 		//if one of form fields is empty - exit
 		if ($form.find('[aria-required="true"], [required]').hasClass('invalid')) {
 			return;
@@ -475,7 +476,8 @@ function windowLoadInit() {
 
 		//sending form data to PHP server if fields are not empty
 		var request = $form.serialize();
-		var ajax = jQuery.post( "contact-form.php", request )
+		//  Para regresar al estado default del doc en el primer parametro colocar: contact-form.php en vez de $form.attr('action')
+		var ajax = jQuery.post($form.attr('action') , request )
 		.done(function( data ) {
 			jQuery($form).find('[type="submit"]').attr('disabled', false).parent().append('<span class="contact-form-respond highlight">'+data+'</span>');
 			//cleaning form
