@@ -1985,7 +1985,7 @@
   content: '\f105';
 }
 .rt-icon2-angle-up:before {
-  content: '\f062';
+  content: '\f106';
 }
 .rt-icon2-angle-down:before {
   content: '\f107';
@@ -3171,7 +3171,7 @@ readers do not read off random characters that represent icons */
   content: '\f061';
 }
 .fa-arrow-up:before {
-  content: '\f062';
+  content: '\f106';
 }
 .fa-arrow-down:before {
   content: '\f063';
@@ -3618,7 +3618,7 @@ readers do not read off random characters that represent icons */
   content: '\f105';
 }
 .fa-angle-up:before {
-  content: '\f062';
+  content: '\f106';
 }
 .fa-angle-down:before {
   content: '\f107';
