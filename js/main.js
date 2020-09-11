@@ -505,9 +505,22 @@
       //sending form data to PHP server if fields are not empty
       var request = $form.serialize();
       //  Para regresar al estado default del doc en el primer parametro colocar: contact-form.php en vez de $form.attr('action')
-      var ajax = jQuery.post($form.attr('action'), request).then(function () {
-        alert('Thank you!');
-      });
+      var ajax = jQuery
+        .post($form.attr('action'), request)
+        .then(function (data) {
+          jQuery($form)
+            .find('[type="submit"]')
+            .attr('disabled', false)
+            .parent()
+            .append(
+              '<span class="contact-form-respond highlight">' + data + '</span>'
+            );
+          //cleaning form
+          var $formErrors = $form.find('.form-errors');
+          if (!$formErrors.length) {
+            $form[0].reset();
+          }
+        });
       /*
 		.done(function( data ) {
 			jQuery($form).find('[type="submit"]').attr('disabled', false).parent().append('<span class="contact-form-respond highlight">'+data+'</span>');
