@@ -13361,13 +13361,14 @@ widget_pages
   display: block;
   font-weight: 800;
 }
+/*
 
 .contact-form-respond:before {
   font-family: 'rt-icons-2';
   content: '\e71a';
   padding-right: 10px;
 }
-
+*/
 .contact-form p {
   margin-bottom: 10px;
   position: relative;

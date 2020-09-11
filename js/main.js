@@ -511,7 +511,7 @@
           .attr('disabled', false)
           .parent()
           .append(
-            '<span class="contact-form-respond highlight">  Formulario enviado </span>'
+            '<span class="contact-form-respond highlight"> <i class="fas fa-check-circle"></i>   Formulario enviado </span>'
           );
         //cleaning form
         var $formErrors = $form.find('.form-errors');
