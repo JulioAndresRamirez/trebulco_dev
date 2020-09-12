@@ -134,9 +134,27 @@ Changes Trebulco
   width: 150px;
 }
 
+.group-buttons-admision {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media (max-width: 640px) {
   .logo_trebulco {
     width: 100px;
+  }
+
+  .group-buttons-admision {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 990px) {
+  /* nav and tabs */
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    background-color: #fa6500 !important;
   }
 }
 
@@ -10681,7 +10699,7 @@ section .intro_section .slide_description_wrapper {
 
   .sf-menu > li > a,
   .sf-menu a {
-    color: #ffffff;
+    color: #df600c;
   }
 
   .sf-menu ul {
