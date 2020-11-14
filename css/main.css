@@ -2243,6 +2243,8 @@ input[type='submit'] {
   color: #ffffff;
   border: 1px solid #323232;
   background-color: #323232;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   position: relative;
   transition: all 0.4s linear 0s;
 }
@@ -2320,11 +2322,19 @@ input[type='submit'].two_lines_button {
   background-color: transparent;
 }
 
+/* TODO */
+
 .theme_buttons.color1 a,
+.theme_button.color1 {
+  background-color: #006834;
+  border-color: #006834;
+}
+
+/* .theme_buttons.color1 a,
 .theme_button.color1 {
   background-color: #08275d;
   border-color: #08275d;
-}
+} */
 
 .theme_buttons.color1 a:hover,
 .theme_buttons.color1 a:focus,
@@ -4752,12 +4762,21 @@ header [class*='col-'],
   display: none;
 }
 
+/* TODO */
+
 .gradient:before,
+.dark_gradient:before {
+  background: #ff8839;
+   background: linear-gradient(to right, #ff9249 0%, #ff8839 100%); 
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mainColor', endColorstr='$mainColor2',GradientType=1 ); */
+}
+
+/* .gradient:before,
 .dark_gradient:before {
   background: #08275d;
   background: linear-gradient(to right, #08275d 0%, #fa6500 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mainColor', endColorstr='$mainColor2',GradientType=1 );
-}
+} */
 
 .vertical_gradient:before {
   background: #08275d;
@@ -8049,9 +8068,17 @@ body.active-side-header.slide-right .page_header_side {
 
 .ls .theme_buttons.color1.inverse a,
 .ls .theme_button.color1.inverse {
+  color: #004623;
+  border-color: #004623;
+}
+
+/* TODO */
+
+/* .ls .theme_buttons.color1.inverse a,
+.ls .theme_button.color1.inverse {
   color: #08275d;
   border-color: #08275d;
-}
+} */
 
 .ls .theme_buttons.color1.inverse a:hover,
 .ls .theme_buttons.color1.inverse a:focus,
@@ -9168,9 +9195,14 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .cs {
+  background-color: #004623;
+  color: rgba(255, 255, 255, 0.932);
+}
+
+/* .cs {
   background-color: #08275d;
   color: rgba(130, 158, 209, 0.8);
-}
+} */
 
 .cs.parallax {
   color: rgba(255, 255, 255, 0.5);
