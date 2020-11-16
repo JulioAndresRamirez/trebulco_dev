@@ -1449,7 +1449,6 @@ input[type='radio']:disabled + label:before {
   /* border-bottom: 1px solid #eaeaea; */
 }
 
-
 /* table tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
@@ -4779,7 +4778,7 @@ header [class*='col-'],
 .gradient:before,
 .dark_gradient:before {
   background: #ff8839;
-   background: linear-gradient(to right, #ff9249 0%, #ff8839 100%); 
+  background: linear-gradient(to right, #ff9249 0%, #ff8839 100%);
   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mainColor', endColorstr='$mainColor2',GradientType=1 ); */
 }
 
