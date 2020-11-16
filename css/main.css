@@ -1439,12 +1439,24 @@ input[type='radio']:disabled + label:before {
 .table > thead > tr > th {
   padding: 15px 15px;
   border-color: #eaeaea;
+  text-align: center;
 }
 
+/*TODO*/
+
 .table {
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
+  /* border-top: 4px solid #eaeaea; */
+  /* border-bottom: 1px solid #eaeaea; */
 }
+
+
+/* table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+} */
 
 .table td + th,
 .table th + td,
