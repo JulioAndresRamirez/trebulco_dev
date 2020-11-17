@@ -4777,8 +4777,8 @@ header [class*='col-'],
 
 .gradient:before,
 .dark_gradient:before {
-  background: #ff8839;
-  background: linear-gradient(to right, #ff9249 0%, #ff8839 100%);
+  background: #fa6500;
+  /* background: linear-gradient(to right, #ff9249 0%, #ff8839 100%); */
   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mainColor', endColorstr='$mainColor2',GradientType=1 ); */
 }
 
