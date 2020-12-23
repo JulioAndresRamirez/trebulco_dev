@@ -4778,8 +4778,8 @@ header [class*='col-'],
 .gradient:before,
 .dark_gradient:before {
   background: #fa6500;
-  /* background: linear-gradient(to right, #ff9249 0%, #ff8839 100%); */
-  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mainColor', endColorstr='$mainColor2',GradientType=1 ); */
+  /* background: linear-gradient(to right, #fa6500 0%, #006834 100%); */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mainColor', endColorstr='$mainColor2',GradientType=1 );
 }
 
 /* .gradient:before,
